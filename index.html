@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RideMotors - сучасний сервіс з ремонту електро- та бензинових мотоциклів, акумуляторів, генераторів та електростанцій у Києві">
+    <meta name="keywords" content="ремонт мотоциклів, ремонт електромотоциклів, ремонт акумуляторів, ремонт генераторів, монтаж мотошин">
+    <meta property="og:title" content="RideMotors - Технологічний сервіс мототехніки">
+    <meta property="og:description" content="Професійний ремонт електро- та бензинових мотоциклів, акумуляторів та енергообладнання">
+    <meta property="og:type" content="website">
+    <title>RideMotors - Технологічний сервіс мототехніки нового покоління</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.png" alt="RideMotors" class="logo-image">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <a href="index.html" class="nav-link active">Головна</a>
+                    <a href="services.html" class="nav-link">Послуги</a>
+                    <a href="about.html" class="nav-link">Про нас</a>
+                    <a href="contacts.html" class="nav-link">Контакти</a>
+                </div>
+                <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="neon-grid"></div>
+            <div class="glow-orb glow-orb-1"></div>
+            <div class="glow-orb glow-orb-2"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-fade-in">
+                    Технологічний сервіс
+                    <span class="gradient-text">нового покоління</span>
+                </h1>
+                <p class="hero-subtitle animate-fade-in-delay">
+                    Професійний ремонт електро- та бензинових мотоциклів, 
+                    акумуляторів, генераторів та енергообладнання
+                </p>
+                <div class="hero-cta animate-fade-in-delay-2">
+                    <a href="contacts.html" class="btn btn-primary glow-effect">
+                        Записатись на ремонт
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="services.html" class="btn btn-secondary">
+                        Наші послуги
+                    </a>
+                </div>
+            </div>
+            <div class="hero-motorcycle">
+                <img src="img/motocycle.png" alt="Motorcycle" class="motorcycle-image animate-slide-up">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Гортайте вниз</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наші <span class="gradient-text">послуги</span></h2>
+                <p class="section-subtitle">Повний спектр сервісних робіт для вашої техніки</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-animate>
+                    <div class="service-image">
+                        <img src="img/remont-electro-skuteriv.png" alt="Ремонт мотоциклів">
+                    </div>
+                    <h3 class="service-title">Ремонт мотоциклів</h3>
+                    <p class="service-description">
+                        Професійний ремонт електричних та бензинових мотоциклів будь-якої складності
+                    </p>
+                    <a href="services.html#motorcycles" class="service-link">
+                        Детальніше
+                        <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="service-card" data-animate>
+                    <div class="service-image">
+                        <img src="img/acamulator.png" alt="Ремонт акумуляторів">
+                    </div>
+                    <h3 class="service-title">Ремонт акумуляторів</h3>
+                    <p class="service-description">
+                        Діагностика та ремонт акумуляторів для електротранспорту та дронів
+                    </p>
+                    <a href="services.html#batteries" class="service-link">
+                        Детальніше
+                        <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="service-card" data-animate>
+                    <div class="service-image">
+                        <img src="img/electro-stanchiya.png" alt="Ремонт електростанцій">
+                    </div>
+                    <h3 class="service-title">Ремонт електростанцій</h3>
+                    <p class="service-description">
+                        Якісний ремонт та обслуговування електростанцій різної потужності
+                    </p>
+                    <a href="services.html#power-stations" class="service-link">
+                        Детальніше
+                        <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="service-card" data-animate>
+                    <div class="service-image">
+                        <img src="img/generator.png" alt="Ремонт генераторів">
+                    </div>
+                    <h3 class="service-title">Ремонт генераторів</h3>
+                    <p class="service-description">
+                        Експертний ремонт генераторів з гарантією якості
+                    </p>
+                    <a href="services.html#generators" class="service-link">
+                        Детальніше
+                        <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="service-card" data-animate>
+                    <div class="service-image">
+                        <img src="img/motoshina.png" alt="Монтаж мотошин">
+                    </div>
+                    <h3 class="service-title">Монтаж мотошин</h3>
+                    <p class="service-description">
+                        Професійний монтаж та балансування шин для мотоциклів
+                    </p>
+                    <a href="services.html#tires" class="service-link">
+                        Детальніше
+                        <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="advantages">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Чому <span class="gradient-text">RideMotors</span>?</h2>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-card" data-animate>
+                    <div class="advantage-number">01</div>
+                    <h3 class="advantage-title">Швидкість</h3>
+                    <p class="advantage-description">
+                        Експрес-діагностика та оперативне виконання робіт. Цінуємо ваш час.
+                    </p>
+                </div>
+                <div class="advantage-card" data-animate>
+                    <div class="advantage-number">02</div>
+                    <h3 class="advantage-title">Досвід</h3>
+                    <p class="advantage-description">
+                        Команда сертифікованих майстрів з багаторічним досвідом роботи.
+                    </p>
+                </div>
+                <div class="advantage-card" data-animate>
+                    <div class="advantage-number">03</div>
+                    <h3 class="advantage-title">Обладнання</h3>
+                    <p class="advantage-description">
+                        Сучасне діагностичне та ремонтне обладнання провідних виробників.
+                    </p>
+                </div>
+                <div class="advantage-card" data-animate>
+                    <div class="advantage-number">04</div>
+                    <h3 class="advantage-title">Гарантія</h3>
+                    <p class="advantage-description">
+                        Офіційна гарантія на всі види виконаних робіт та замінені деталі.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-preview-content">
+                <div class="about-preview-text" data-animate>
+                    <h2 class="section-title">Про <span class="gradient-text">RideMotors</span></h2>
+                    <p class="about-preview-description">
+                        Ми не просто гараж — ми технологічний сервіс нового покоління. 
+                        Спеціалізуємося на ремонті електротранспорту та сучасного енергообладнання, 
+                        використовуючи найновіші методи діагностики та ремонту.
+                    </p>
+                    <p class="about-preview-description">
+                        Наша місія — зробити обслуговування вашої техніки швидким, 
+                        якісним та максимально комфортним.
+                    </p>
+                    <a href="about.html" class="btn btn-secondary">
+                        Дізнатись більше
+                    </a>
+                </div>
+                <div class="about-preview-visual" data-animate>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                                </svg>
+                            </div>
+                            <span>Електро</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                                </svg>
+                            </div>
+                            <span>Акумулятори</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">⚙️</div>
+                            <span>Генератори</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="5.5" cy="17.5" r="3.5"/>
+                                    <circle cx="18.5" cy="17.5" r="3.5"/>
+                                    <path d="M15 6l-3-3-3 3"/>
+                                    <path d="M12 3v7"/>
+                                </svg>
+                            </div>
+                            <span>Мотоцикли</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content" data-animate>
+                <h2 class="cta-title">Готові довірити нам вашу техніку?</h2>
+                <p class="cta-description">
+                    Запишіться на діагностику або консультацію прямо зараз
+                </p>
+                <div class="cta-buttons">
+                    <a href="contacts.html" class="btn btn-primary glow-effect">
+                        Записатись зараз
+                    </a>
+                    <a href="tel:+380970357013" class="btn btn-outline">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        +380 97 035 70 13
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-logo">
+                        <span class="logo-text">Ride</span><span class="logo-accent">Motors</span>
+                    </h3>
+                    <p class="footer-description">
+                        Технологічний сервіс мототехніки та енергообладнання нового покоління
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Навігація</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="services.html">Послуги</a></li>
+                        <li><a href="about.html">Про нас</a></li>
+                        <li><a href="contacts.html">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Послуги</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#motorcycles">Ремонт мотоциклів</a></li>
+                        <li><a href="services.html#batteries">Ремонт акумуляторів</a></li>
+                        <li><a href="services.html#generators">Ремонт генераторів</a></li>
+                        <li><a href="services.html#tires">Монтаж мотошин</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Контакти</h4>
+                    <ul class="footer-contacts">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <a href="tel:+380970357013">+380 97 035 70 13</a>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <a href="https://maps.google.com/?q=м.+Одеса,+вул.+Запорізька,+19" target="_blank" rel="noopener" class="footer-address-link">
+                                <span>м. Одеса, вул. Запорізька, 19</span>
+                                <svg class="link-external" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 14px; height: 14px; margin-left: 4px;">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 RideMotors. Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
