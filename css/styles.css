@@ -567,7 +567,7 @@ section {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Шахматный паттерн */
+/* Шаховий патерн */
 .service-card:nth-child(1) {
     transform: translateY(0);
     overflow: visible;
